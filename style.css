@@ -1,0 +1,51 @@
+
+.main{
+    background-image: url(giphy.gif);
+    width: 97vw;
+    height: 92vh;
+    padding: 10px;
+    
+}
+ .container{
+    margin-top: 35vh;
+    height: 25px;
+    background-color: #CCC;
+    position: relative;
+    border-radius: 7px;
+    
+}
+.container .progress-bar {
+    position: absolute;
+    height: 100%;
+    border-radius: 7px;
+    background-color: rgb(125, 44, 255);
+}
+.btn{
+    height: 50px;
+    width :max-content;
+    background-color: rgb(247, 247, 49);
+    font-size: larger;
+    font-family: fantasy;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#play-animation{
+    animation: progress-animation 5s forwards;
+}
+#play-cloud{
+    animation: cloud-upload 7s forwards;
+}
+@keyframes progress-animation {
+    0% {width : 0%;}
+    100% {width: 100%;}
+}
+@keyframes cloud-upload {
+    0% {width: 0%;}
+    25% {width: 25%;}
+    30% {width : 15%;}
+    50% {width : 50% ;}
+    55% {width: 40%;}
+    75% {width: 75%;}
+    80% {width: 65%;}
+    100%{width: 100%;}
+}

@@ -5,6 +5,7 @@
 // document.querySelectorAll("button")[4].addEventListener("click",function(){alert("N5")});
 // document.querySelectorAll("button")[5].addEventListener("click",function(){alert("N6")});
 // document.querySelectorAll("button")[6].addEventListener("click",function(){alert("N7")});
+alert("You can click the boxes to play or you can press the buttons too (w,a,s,d...)")
 for (var i = 0; i < document.querySelectorAll(".drum").length; ++i) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
         var buttonno = this.innerHTML;
